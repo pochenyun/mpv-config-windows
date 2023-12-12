@@ -1,0 +1,1 @@
+{"volume":38,"glsl-shaders":["~~/shaders/AMD_FSR_EASU_rgb.glsl","~~/shaders/Anime4K_Restore_CNN_L.glsl","~~/shaders/Anime4K_Upscale_GAN_x2_M.glsl","~~/shaders/adaptive_sharpen.glsl","~~/shaders/KrigBilateral.glsl"]}
