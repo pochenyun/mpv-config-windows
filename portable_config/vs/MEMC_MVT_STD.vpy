@@ -11,7 +11,7 @@ clip = video_in
 # 用户选项 #
 ############
 
-H_Pre = 1440
+H_Pre = 2160
 Fps_Out = 60.0
 Lk_Fmt = False
 ## 整数，预降低处理源高度（填你的显示器高度）

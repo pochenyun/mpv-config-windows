@@ -11,7 +11,7 @@ clip = video_in
 # 用户选项 #
 ############
 
-H_Pre = 1440
+H_Pre = 2160
 Recal = True
 Block = True
 Lk_Fmt = False
