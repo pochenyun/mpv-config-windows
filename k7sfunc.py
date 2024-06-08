@@ -1319,7 +1319,7 @@ def RIFE_STD(
 	fps_den : int = 1,
 	sc_mode : typing.Literal[0, 1, 2] = 1,
 	skip : bool = True,
-	stat_th : float = 60.0,
+	stat_th : float = 160.0,
 	gpu : typing.Literal[0, 1, 2] = 0,
 	gpu_t : int = 2,
 	vs_t : int = vs_thd_dft,
@@ -1340,7 +1340,7 @@ def RIFE_STD(
 		raise vs.Error(f"模块 {func_name} 的子参数 sc_mode 的值无效")
 	if not isinstance(skip, bool) :
 		raise vs.Error(f"模块 {func_name} 的子参数 skip 的值无效")
-	if not isinstance(stat_th, (int, float)) or stat_th <= 0.0 or stat_th > 60.0 :
+	if not isinstance(stat_th, (int, float)) or stat_th <= 0.0 or stat_th > 160.0 :
 		raise vs.Error(f"模块 {func_name} 的子参数 stat_th 的值无效")
 	if gpu not in [0, 1, 2] :
 		raise vs.Error(f"模块 {func_name} 的子参数 gpu 的值无效")

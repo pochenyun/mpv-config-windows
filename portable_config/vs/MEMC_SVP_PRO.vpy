@@ -11,8 +11,8 @@ clip = video_in
 # 用户选项 #
 ############
 
-H_Pre = 1440
-Fps_Num = 60000
+H_Pre = 2160
+Fps_Num = 160000
 Fps_Den = 1001
 Abs = True
 Nvof = False

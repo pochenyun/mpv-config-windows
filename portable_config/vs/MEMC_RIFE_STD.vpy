@@ -11,16 +11,16 @@ clip = video_in
 # 用户选项 #
 ############
 
-H_Pre = 1440
+H_Pre = 2160
 Model = 23
 T_Tta = False
 Fps_Num = 2
 Fps_Den = 1
 Sc_Mode = 1
 Skip = True
-Stat_Th = 60.0
+Stat_Th = 160.0
 Gpu = 0
-Gpu_T = 2
+Gpu_T = 1
 Lk_Fmt = False
 ## 整数，预降低处理源高度（填你的显示器高度）
 ## <23|47|49> 使用的模型
